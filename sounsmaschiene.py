@@ -154,37 +154,37 @@ import pygame
 def abspielen (t, Tonfolge) :
     if Tonfolge [t] == 'C' :
         pygame.mixer.init()
-        pygame.mixer.music.load('/Users/morics/Desktop/ModSimProjekt/c-durRobo.wav')        #Dateipfad mit Toenen
+        pygame.mixer.music.load('c-durRobo.wav')        #Dateipfad mit Toenen
         pygame.mixer.music.play() 
         
     elif Tonfolge [t] == 'D' :
         pygame.mixer.init()
-        pygame.mixer.music.load('/Users/morics/Desktop/ModSimProjekt/d-durRobo.wav')        #Dateipfad mit Toenen
+        pygame.mixer.music.load('d-durRobo.wav')        #Dateipfad mit Toenen
         pygame.mixer.music.play()
         
     elif Tonfolge [t] == 'E' :       
         pygame.mixer.init()
-        pygame.mixer.music.load('/Users/morics/Desktop/ModSimProjekt/e-durRobo.wav')        #Dateipfad mit Toenen
+        pygame.mixer.music.load('e-durRobo.wav')        #Dateipfad mit Toenen
         pygame.mixer.music.play()
         
     elif Tonfolge [t] == 'F' :
         pygame.mixer.init()
-        pygame.mixer.music.load('/Users/morics/Desktop/ModSimProjekt/f-durRobo.wav')        #Dateipfad mit Toenen
+        pygame.mixer.music.load('f-durRobo.wav')        #Dateipfad mit Toenen
         pygame.mixer.music.play()
         
     elif Tonfolge [t] == 'G' :
         pygame.mixer.init()
-        pygame.mixer.music.load('/Users/morics/Desktop/ModSimProjekt/g-durRobo.wav')        #Dateipfad mit Toenen
+        pygame.mixer.music.load('g-durRobo.wav')        #Dateipfad mit Toenen
         pygame.mixer.music.play()
         
     elif Tonfolge [t] == 'A' :
         pygame.mixer.init()
-        pygame.mixer.music.load('/Users/morics/Desktop/ModSimProjekt/a-durRobo.wav')        #Dateipfad mit Toenen
+        pygame.mixer.music.load('a-durRobo.wav')        #Dateipfad mit Toenen
         pygame.mixer.music.play()
         
     elif Tonfolge [t] == 'H' :
         pygame.mixer.init()
-        pygame.mixer.music.load('/Users/morics/Desktop/ModSimProjekt/h-durRobo.wav')        #Dateipfad mit Toenen
+        pygame.mixer.music.load('h-durRobo.wav')        #Dateipfad mit Toenen
         pygame.mixer.music.play()
         
     
